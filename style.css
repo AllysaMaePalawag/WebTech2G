@@ -1,0 +1,38 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: right;
+}
+
+li {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+header{
+  border-bottom: 2px solid black;
+}
+
+.section {
+  border-bottom: 2px solid black;
+  padding: 150px;
+}
+
+.footer {
+  border-top: solid black;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  color: black;
+  text-align: center;
