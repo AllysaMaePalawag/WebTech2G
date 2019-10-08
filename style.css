@@ -3,7 +3,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: transparent;
 }
 
 li {
@@ -14,10 +14,12 @@ li {
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding:13px 16px;
   text-decoration: none;
 }
-
+h3{
+  color: white;
+}
 header{
   border-bottom: 2px solid black;
 }
@@ -25,14 +27,15 @@ header{
 .section {
   border-bottom: 2px solid black;
   padding: 150px;
+  color: white;
 }
 
 .footer {
   border-top: solid black;
-  position: fixed;
+  position: bottom;
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: white;
-  color: black;
+  background-color: black;
+  color: white;
   text-align: center;
